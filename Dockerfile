@@ -1,5 +1,4 @@
 # Requirements for plot2DO
-FROM inutano/wget:latest
 FROM bioconductor/release_core2:R3.6.0_Bioc3.9
 
 # Set the working directory to /app
