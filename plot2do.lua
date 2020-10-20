@@ -16,8 +16,7 @@ whatis("Keywords: plot2DO, Utility")
 whatis("URL: https://github.com/rchereji/plot2DO")
 whatis("Description: Plot 2D Occupancies")
 
-always_load("nixpkgs/16.09")
-always_load("gcc/7.3.0")
+prereq("gcc/7.3.0")
 always_load("r/3.6.0")
 
 local home = os.getenv("HOME") or ""
